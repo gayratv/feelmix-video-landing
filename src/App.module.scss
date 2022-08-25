@@ -27,7 +27,7 @@
         "sidebar-left content sidebar-right"
         "sidebar-left footer sidebar-right";
   grid-template-columns: var(--app-sidebar-width) var(--app-content-max-height) var(--app-sidebar-width);
-  grid-template-rows: var(--app-header-height) 1fr var(--app-footer-height);
+  grid-template-rows: var(--app-header-height) var(--app-content-max-height) var(--app-footer-height);
   height: var(--app-height);
   line-height: 1.15;
   position: relative;

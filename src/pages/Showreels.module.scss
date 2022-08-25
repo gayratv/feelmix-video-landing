@@ -1,0 +1,15 @@
+.main {
+  overflow: hidden;
+  height: 100%;
+
+  h2 {
+    font-size:4rem;
+    text-align:center;
+  }
+}
+
+.containerVideo {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
