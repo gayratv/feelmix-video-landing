@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/*@import-normalize;*/
+
+
+html {
+    font-size: 12px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+* {
+    box-sizing: border-box;
+    user-select: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 200;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Thin.72867aa1c27de09b2c65.ttf)
+}
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 300;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Light.566bdfb40e33d5d4ce17.ttf)
+}
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 400;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Regular.09c5aa9888e6718706f0.ttf)
+}
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 600;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Semibold.9f0d6fedfe1a1b51082d.ttf)
+}
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 700;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Bold.27c013723d658038796c.ttf)
+}
+
+@font-face {
+    font-family: RFDewi;
+    font-weight: 900;
+    src: local("RFDewi");
+    src: url(./fonts/RFDewi-Ultrabold.d9d76197991698e89d45.ttf)
 }

@@ -1,0 +1,7 @@
+curl https://feelmix.pro/static/media/RFDewi-Thin.72867aa1c27de09b2c65.ttf --output RFDewi-Thin.72867aa1c27de09b2c65.ttf
+curl https://feelmix.pro/static/media/RFDewi-Light.566bdfb40e33d5d4ce17.ttf --output RFDewi-Light.566bdfb40e33d5d4ce17.ttf
+curl https://feelmix.pro/static/media/RFDewi-Regular.09c5aa9888e6718706f0.ttf --output RFDewi-Regular.09c5aa9888e6718706f0.ttf
+curl https://feelmix.pro/static/media/RFDewi-Semibold.9f0d6fedfe1a1b51082d.ttf --output RFDewi-Semibold.9f0d6fedfe1a1b51082d.ttf
+curl https://feelmix.pro/static/media/RFDewi-Bold.27c013723d658038796c.ttf --output RFDewi-Bold.27c013723d658038796c.ttf
+curl https://feelmix.pro/static/media/RFDewi-Ultrabold.d9d76197991698e89d45.ttf --output RFDewi-Ultrabold.d9d76197991698e89d45.ttf
+

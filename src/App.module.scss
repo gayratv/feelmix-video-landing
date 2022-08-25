@@ -1,0 +1,44 @@
+.App {
+
+  --app-height: 100%;
+  --app-header-height: 64px;
+  --app-content-height: 100%;
+  --app-content-max-height: calc(100% - var(--app-header-height) - var(--app-footer-height));
+  --app-sidebar-width: 64px;
+  --app-sidebar-height: 100%;
+  --app-main-width: 100%;
+  --app-main-height: 100%;
+  --app-footer-height: 64px;
+  --font-color: red;
+  --background-color: #fff;
+  --border-color: #252525;
+  --app-background: #000;
+  --app-transition: cubic-bezier(0.4, 0, 0.2, 1);
+  --app-gradient: linear-gradient(90deg, #ee7752, #e73c7e, #ee7752, #e73c7e, #23a6d5, #ee7752);
+  font-family: RFDewi;
+  letter-spacing: 1px;
+}
+
+.App {
+
+  display: grid;
+  grid-template-areas:
+        "sidebar-left header sidebar-right"
+        "sidebar-left content sidebar-right"
+        "sidebar-left footer sidebar-right";
+  grid-template-columns: var(--app-sidebar-width) var(--app-content-max-height) var(--app-sidebar-width);
+  grid-template-rows: var(--app-header-height) 1fr var(--app-footer-height);
+  height: var(--app-height);
+  line-height: 1.15;
+  position: relative;
+
+  height:100vh;
+}
+
+.classP {
+    color: red;
+}
+
+.expandContent {
+  height: 1fr;
+}

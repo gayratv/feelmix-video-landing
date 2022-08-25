@@ -1,0 +1,25 @@
+.nav {
+  display: flex;
+  height: 63px;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(100vw - 128px);
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.MainLogoSvg {
+  width: 112px;
+  height: 30px;
+}
+
+.p {
+  font-size: 1rem;
+
+  font-family: RFDewi;
+  letter-spacing: 1px;
+  font-stretch: 100%;
+  line-height: 1.15;
+  text-transform: uppercase;
+  font-weight:700;
+}
