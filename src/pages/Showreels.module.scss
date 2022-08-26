@@ -13,3 +13,42 @@
   grid-template-columns: 1fr 1fr;
   gap: 10px;
 }
+
+.advVideo {
+  video {
+    object-fit: scale-down;
+    //width : 100% ;
+
+    --app-content-max-height2: calc(100vh - var(--app-header-height) - var(--app-footer-height));
+    --one-height: calc((var(--app-content-max-height2) - 30px - 4rem) / 2);
+    width : calc( var(--one-height) * 1.77);
+    //--app-content-max-height
+  }
+}
+
+
+/*
+
+.advVideo {
+  video {
+    object-fit: scale-down;
+    //1280 × 720
+
+    --width : 500px;
+    width : var( --width);
+    height: calc(var(--width) * 0.5625)
+  }
+}
+
+
+.advVideo2 {
+  video {
+    object-fit: scale-down;
+    //1280 × 720
+
+    --width : 500px;
+    //width : var( --width);
+    width:100%;
+    //height: calc(var(--width) * 0.5625)
+  }
+}*/
